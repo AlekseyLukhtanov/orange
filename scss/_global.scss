@@ -1,0 +1,163 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html, body {
+    min-height: 100%;
+}
+body.page-checkout,
+body.page-basket {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+body{
+  background-color: #f7edde;
+}
+#wrapper {
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+  background-color: #eeaf4d;
+}
+.container7{
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.layout {
+	margin:0 auto;
+	position:relative;
+	width:1400px;
+}
+.clearfix:after {
+      display: table;
+      clear: both;
+      width: 100%;
+      content: "";
+}
+h1{
+text-shadow: 0 -1px 0 #c3892f;
+color: #ffffff;
+font-family: "Cambria Math";
+font-size: 30px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+}
+h2{
+  color:#3da2b4;
+  font-size: 36px;
+  display: inline-block;
+}
+h3{
+  font-size: 24px;
+  color: #267788;
+  font-family: "Cambria Math";
+}
+h4{
+  display: inline-block;
+  font-size: 40px;
+  font-family: Candara;
+  margin:0 0 30px 0 ;
+  color: #40312a;
+}
+#Learnmore{
+  display:inline-block;
+  background-color: #f0b353;
+  margin:0 30px;
+  width: 160px;
+  height:45px;
+  text-shadow: 0 -1px 0 #c3892f;
+  color: #ffffff;
+  font-family: Candara;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 36px;
+}
+#submit {
+  display: block;
+width: 110px;
+height: 30px;
+background-color: #febf5d;
+border: none;
+float:right;
+margin: 34px 70px 0px 0;
+}
+#yourname {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+#Lastname {
+  width: 152px;
+  height: 35px;
+  float:right;
+}
+#Blablabla {
+  width: 270px;
+  height: 110px;
+  margin-top: 10px;
+}
+#youremailadress {
+  width: 270px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#theblog{
+  display: block;
+  padding: 10px 20px;
+  background-color: #493a34;
+  float: right;
+  margin-top: 46px;
+  margin-right: 25px;
+  border: none;
+  color: #ffffff;
+  font-family: "Cambria Math";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+input[type="search"]::-webkit-input-placeholder {
+    color:#247184;
+   }
+   #FOLLOWUS{
+     display: block;
+     padding: 10px 20px;
+     background-color: #febf5d;
+     border: none;
+     float:right;
+     margin-top:10px;
+     color: #ffffff;
+     font-family: "Cambria Math";
+     font-size: 18px;
+   }
+   .boild{
+     border: none;
+     background-color:#bba67b;
+     height: 2px;
+     margin: 0;
+   }
+   .light{
+     border: none;
+     background-color:#bba67b;
+     height: 1px;
+     margin:50px -35px -47px -35px;
+   }
+   .linefooter{
+     border: none;
+     background-color:#bba67b;
+     height: 1px;
+     margin: -47px 0 50px 0;
+   }

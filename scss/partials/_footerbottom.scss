@@ -1,0 +1,71 @@
+.footerbottom{
+  background-color:#3b2d26;
+  padding: 50px 0;
+  h4{
+    color:#287b8c;
+    font-family: "Cambria Math";
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-bottom: 25px;
+  }
+  .container{
+    ul{
+      display:flex;
+      li{
+        .forfooterQuote{
+          padding-right: 80px;
+          input{
+            border-radius: 4px;
+            border-style: solid;
+            border-color:grey;
+          }
+          input[type="text"]{
+            color:#5f949e;
+          }
+        }
+        .ourrecentprojects{
+          ul{
+            display: block;
+            float: left;
+          li {
+            display: block;
+            float: left;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            img{
+              border:solid;
+              border-color: #febf5d;
+            }
+          }
+          }
+        }
+        .Twitter-stream{
+          ul{
+            display: flex;
+            flex-direction:column;
+          p{
+            margin-top: 26px;
+            span{
+              color: #fff;
+              font-family: Cambria;
+              font-size: 12px;
+              font-weight: bold;
+              letter-spacing: 0.6px;
+              margin-bottom: 0px;
+            }
+            a{
+            font-family: Cambria;
+            font-size: 12px;
+            color: #247184;
+            font-weight: bold;
+            font-style: italic;
+            }
+          }
+        }
+      }
+      }
+    }
+  }
+}

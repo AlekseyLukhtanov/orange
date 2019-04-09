@@ -1,0 +1,60 @@
+aside{
+  display:block;
+  width:40%;
+  float:right;
+  padding: 50px 38px 40px 50px;
+  background: linear-gradient(to bottom left ,#edddc6 ,#f8eedf);
+
+  .whoWeAre{
+    h3{
+     display: inline-block;
+     margin-top: 40px;
+     margin-bottom: 30px;
+     font-size: 22px;
+   }
+   .baney{
+     border:solid;
+     border-color: #febf5d;
+     width: 530px;
+     right: 300px;
+     margin-bottom: 20px;
+   }
+   a{
+     color:#247184;
+     font-family: Cambria;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 18px;
+    }
+    p{
+     color: #000000;
+     font-family: Cambria;
+     font-size: 12px;
+     font-weight: bold;
+     letter-spacing: 0.6px;
+     span{
+       color: #000000;
+       font-family: Cambria;
+       font-size: 12px;
+       font-weight: bold;
+       letter-spacing: 0.6px;
+      }
+    }
+  }
+  .sponsors{
+    display:block;
+    h3{
+      display: inline-block;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      font-size: 22px;
+    }
+    img{
+      border:solid;
+      border-color: #febf5d;
+      width: 138px;
+      right: 138px;
+      margin-bottom: 32px;
+    }
+  }
+}

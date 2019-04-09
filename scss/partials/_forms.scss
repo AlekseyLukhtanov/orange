@@ -1,0 +1,42 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:focus {
+
+  }
+  &::placeholder {
+
+  }
+}
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  transition: all .3s ease-out;
+  -webkit-appearance: none;
+  appearance: none;
+  &:hover,
+  &:active {
+
+  }
+  &:focus {
+
+  }
+}

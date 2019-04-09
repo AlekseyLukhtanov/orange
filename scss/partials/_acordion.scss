@@ -1,0 +1,77 @@
+.acordion{
+  display: inline-block;
+  background-color: #267689;
+  border-radius: 6px;
+  width: 312px;
+  height: 200px;
+  right:  50%;
+  .nav{
+    .nav7{
+      display: flex;
+      li{
+        padding: 15px 11px ;
+        border-radius: 4px 4px 0 0;
+        a{
+          text-shadow: 0 -1px 0 #176472;
+          color: #ffffff;
+          font-family: "Cambria Math";
+          font-size: 16px;
+          font-weight: bold;
+          letter-spacing: 0.8px;
+        }
+      }
+      li:hover{
+        background-color:#287b8d;
+      }
+    }
+  }
+  .contentAcor{
+    display: block;
+    .text1{
+      li{
+        p{
+          display: block;
+          margin-left:13px;
+          margin-top:18px;
+          color: #ffffff;
+          font-family: Verdana;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+      }
+    }
+    .text2{
+      display: none;
+      li{
+        display: block;
+        text-align: center;
+        p{
+          display:inline-block;
+          margin-left:13px;
+          margin-top:18px;
+          color: #ffffff;
+          font-family: Verdana;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+      }
+    }
+    .text3{
+      display: none;
+      li{
+        p{
+          display: block;
+          margin-left:13px;
+          margin-top:18px;
+          color: #ffffff;
+          font-family: Verdana;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

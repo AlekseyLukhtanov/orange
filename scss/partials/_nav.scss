@@ -1,0 +1,47 @@
+nav{
+  background-color:#40312a;
+  .container7{
+    .navRight{
+      display: block;
+      float: left;
+      ul{
+        display: block;
+        padding:24px 0;
+        float:left;
+        li{
+          display: inline-block;
+          padding-right: 19px;
+          a{
+            width: 96px;
+            height: 13px;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.37);
+            color: #ffffff;
+            font-family: Candara;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.9px;
+          }
+        }
+      }
+    }
+    .navigationsearch{
+      display:block;
+      float: right;
+      padding:22px 0;
+      form{
+        display: inline-block;
+        input{
+          display: inline-block;
+          background-image: url("https://img.icons8.com/material/24/000000/search.png") ;
+          background-repeat: no-repeat;
+          background-position: 153px;
+          padding: 5px 10px;
+          background-color:#2c8595;
+          border-radius:3px;
+          border: none;
+        }
+      }
+    }
+  }
+}

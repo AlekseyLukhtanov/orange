@@ -1,0 +1,60 @@
+footer {
+  background-color: #287b8d;
+  padding: 30px 0;
+  .footerbottomleft{
+    p{
+     float: left;
+     display: block;
+     float: left;
+     color: #ffffff;
+     font-family: "Cambria Math";
+     font-size: 13px;
+     padding-right: 4px;
+    }
+    span{
+     float: left;
+     display: block;
+     float: left;
+     color: #ffffff;
+     font-family: "Cambria Math";
+     font-size: 13px;
+     padding-right: 4px;
+    }
+    a{
+     float: left;
+     display: block;
+     float: left;
+     color: #ffffff;
+     font-family: "Cambria Math";
+     font-size: 13px;
+     padding-right: 4px;
+    }
+  }
+  .footerbottomright{
+    float: right;
+    .naVfooter{
+      display: block;
+      float:left;
+      p{
+        display: block;
+        float: left;
+        color: #ffffff;
+        font-family: "Cambria Math";
+        font-size: 13px;
+        padding-right: 4px;
+      }
+      li{
+        float: left;
+        a{
+          display: block;
+          float: left;
+          color: #ffffff;
+          font-family: "Cambria Math";
+          font-size: 13px;
+          padding-right: 4px;
+        }
+      }
+    }
+
+  }
+}

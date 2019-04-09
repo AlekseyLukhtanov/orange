@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic');
+
+//FONT FAMILIES
+$font-base: 'Open Sans', sans-serif;
+
+//FONT SIZES
+$fontSize-xsmall:   .75rem;     // 12px
+$fontSize-small:    .875rem;    // 14px
+$fontSize-base:     1rem;       // 16px
+$fontSize-large:    1.125rem;   // 18px
+$fontSize-larger:   1.25rem;    // 20px
+$fontSize-largest:  1.5rem;     // 24px
+
+//FONT WEIGHTS
+$fontWeight-light:      300;
+$fontWeight-normal:     400;
+$fontWeight-semiBold:   600;
+$fontWeight-bold:       700;
+$fontWeight-extraBold:  800;
+
+//LINE HEIGHTS
+$lineHeight-stightest:  1.15;
+$lineHeight-tightest:   1.25;
+$lineHeight-tighter:    1.3;
+$lineHeight-tight:      1.5;
+$lineHeight-base:       1.6;
